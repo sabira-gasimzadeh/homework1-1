@@ -1,0 +1,101 @@
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+}
+.exchange-section {
+    display: flex;
+    gap: 10px;
+    font-size: larger;
+    background: #eee;
+    align-items: center;
+    background-size: 10px;
+}
+
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dollar {
+    border: 1px solid #3b5998;
+}
+
+.dollar:hover {
+    background: #3b5998;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.6s ease-in;
+}
+
+.euro {
+    border: 1px solid #d34836;
+}
+
+.euro:hover {
+    background: #d34836;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.6s ease-in;
+}
+
+.funt {
+    border: 1px solid #00aced;
+}
+
+.funt:hover {
+    background: #00aced;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.6s ease-in;
+}
+
+.tl {
+    border: 1px solid #f60;
+}
+
+.tl:hover {
+    background: #f60;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.6s ease-in;
+}
+
+
+.header-bottom {
+    display: flex;
+    word-spacing: 20px;
+    padding-top: 20px;
+    padding-left: 20%;
+    font-size: larger;
+    background: #da0000;
+}
+
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #eee;
+    cursor: pointer;
+}
+
+.search-icon {
+    padding-left: 30px;
+}
+
+.news-section {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: overline;
+    text-decoration-color: #da0000;
+    padding-top: 20px;
+    font-size: large;
+}
